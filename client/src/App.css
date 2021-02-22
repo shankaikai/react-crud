@@ -1,3 +1,7 @@
+* {
+  font-family: sans-serif;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -11,7 +15,7 @@
   align-items: center;
 }
 
-.information input {
+input {
   width: 300px;
   height: 30px;
   padding: 5px;
@@ -45,10 +49,10 @@ button:hover {
 }
 
 .employeeDetails {
-  font-family: sans-serif;
   display: flex;
-  flex-direction: column;
-  width: 320px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
   height: auto;
   padding: 20px;
   border-radius: 10px;
